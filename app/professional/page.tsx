@@ -4,22 +4,22 @@ import { Server, Layout, Database, ExternalLink, Mail, Code2, Briefcase, Graduat
 
 
 export default function ProfessionalPortfolio() {
-  const containerVariants = {
-    hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: { staggerChildren: 0.12 }
-    }
-  }
-
-  const itemVariants = {
-    hidden: { y: 20, opacity: 0 },
-    visible: {
-      y: 0,
-      opacity: 1,
-      transition: { type: "spring", stiffness: 100 }
-    }
-  }
+    const containerVariants: any = {
+        hidden: { opacity: 0 },
+        visible: {
+          opacity: 1,
+          transition: { staggerChildren: 0.12 }
+        }
+      }
+    
+      const itemVariants: any = {
+        hidden: { y: 20, opacity: 0 },
+        visible: {
+          y: 0,
+          opacity: 1,
+          transition: { type: "spring", stiffness: 100 }
+        }
+      }
 
   const skills = [
     { title: "Frontend", stack: ["Next.js", "React", "Tailwind CSS", "Bootstrap"], color: "bg-blue-50 text-blue-700 border-blue-200" },

@@ -3,23 +3,23 @@ import { motion, Variants } from 'framer-motion'
 import { Palette, Wand2, Sparkles, Gamepad2, Code2, Rocket } from 'lucide-react'
 
 export default function CreativePortfolio() {
-  const containerVariants = {
-    hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: { staggerChildren: 0.15 }
-    }
-  }
-
-  const itemVariants = {
-    hidden: { y: 40, opacity: 0, scale: 0.9 },
-    visible: {
-      y: 0,
-      opacity: 1,
-      scale: 1,
-      transition: { type: "spring", stiffness: 120, damping: 10, mass: 0.8 }
-    }
-  }
+    const containerVariants: any = {
+        hidden: { opacity: 0 },
+        visible: {
+          opacity: 1,
+          transition: { staggerChildren: 0.15 }
+        }
+      }
+    
+      const itemVariants: any = {
+        hidden: { y: 40, opacity: 0, scale: 0.9 },
+        visible: {
+          y: 0,
+          opacity: 1,
+          scale: 1,
+          transition: { type: "spring", stiffness: 120, damping: 10, mass: 0.8 }
+        }
+      }
 
   const artworks = [
     {

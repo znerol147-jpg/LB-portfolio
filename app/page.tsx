@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { Code2, Sparkles, ArrowRight, Terminal } from 'lucide-react'
 
 export default function Home() {
-  const containerVariants = {
+  const containerVariants: any = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
@@ -12,7 +12,7 @@ export default function Home() {
     }
   }
 
-  const cardVariants = {
+  const cardVariants: any = {
     hidden: { y: 30, opacity: 0 },
     visible: {
       y: 0,
