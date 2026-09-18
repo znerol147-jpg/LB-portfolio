@@ -1,6 +1,7 @@
 'use client'
-import { motion } from 'framer-motion'
+import { motion, Variants } from 'framer-motion'
 import { Server, Layout, Database, ExternalLink, Mail, Code2, Briefcase, GraduationCap } from 'lucide-react'
+
 
 export default function ProfessionalPortfolio() {
   const containerVariants = {

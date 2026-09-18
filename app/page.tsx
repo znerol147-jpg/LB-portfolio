@@ -1,5 +1,5 @@
 'use client'
-import { motion } from 'framer-motion'
+import { motion, Variants } from 'framer-motion'
 import Link from 'next/link'
 import { Code2, Sparkles, ArrowRight, Terminal } from 'lucide-react'
 

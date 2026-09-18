@@ -1,5 +1,5 @@
 'use client'
-import { motion } from 'framer-motion'
+import { motion, Variants } from 'framer-motion'
 import { Palette, Wand2, Sparkles, Gamepad2, Code2, Rocket } from 'lucide-react'
 
 export default function CreativePortfolio() {
